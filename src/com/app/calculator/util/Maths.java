@@ -4,7 +4,6 @@ public class Maths {
 
     public double add(double a, double b) {
         double answer = a+b;
-        System.out.println("Answer::"+answer);
         return answer;          
     }
 

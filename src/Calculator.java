@@ -21,8 +21,6 @@ public static void main(String[] args) {
         inputA = input.nextDouble();
         operator = input.next().charAt(0);
         inputB = input.nextDouble();        
-
-        System.out.println("Test1234");
         
         switch (operator) {
             case '+': answer = Maths.add(inputA, inputB);
